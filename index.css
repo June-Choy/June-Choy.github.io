@@ -1,0 +1,33 @@
+.important{
+    font-color:orange;
+    font-weight:bold;
+    text-decoration:underline;
+    font-size: 3em;
+}
+.thumbnail{
+    
+    border-radius: 120px
+}
+
+.news-title{
+font-size: 1.5em;
+font-weight: bold;
+font-family: monospace;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+
+body{ 
+    background-color: mintcream;
+}
+h1{
+    color:rgb(67, 70, 70);
+    border: 3px dotted grey;
+    text-decoration: underline;
+    font-family: monospace;
+}
+
+p{
+    font-size: 1.2em;
+    border: 1px solid darkblue;
+}

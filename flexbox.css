@@ -1,0 +1,15 @@
+.box-150{
+    width: 150px;
+    height: 150px:
+
+}
+
+.color-blue{
+    border: 2px solid darkblue;
+    background: lightblue;
+}
+
+.color-red{
+    border: 2px solid darkred;
+    background: red;
+}

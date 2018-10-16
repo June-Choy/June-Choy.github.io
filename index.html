@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Chocolate Chip Cookies</title>
+    <link rel="stylesheet" href="index.css">
 </head>
     <style>
-       body{background-color: rgb(243, 225, 208)} 
+       body{background-color:rgb(243, 225, 208)} 
     </style>
     <body>
-        <h1 style="color: rgb(67, 70, 70)">Gemma's Chocolate Chip Cookies Recipe</h1>
-        <img src="images1/Cookies.png" alt="Chocolate chip cookies">
+        <h1>Gemma's Chocolate Chip Cookies Recipe</h1>
+        <img class="thumbnail" src="images1/Cookies.png" alt="Chocolate chip cookies">
 
         <p style="color: rgb(67, 70, 70)">
             My favourite type of chocolate chip cookies are crispy on the edges and chewy in the centre. Gemma Stafford's recipes are easy to follow and I love her bakes. I used dark chocolate for the cookies and reduced the amount of sugar.
@@ -66,7 +67,7 @@
                 </tr>
                      </ul>
                 </tr>
-                
+
             </tbody>
         </table>
         <p></p>
@@ -98,6 +99,60 @@
         <p style="color: rgb(67, 70, 70)">
         You can get Gemma's original recipe <a href="https://www.biggerbolderbaking.com/best-ever-chocolate-chip-cookies/">here</a>.
         </p>
+
+        <audio controls>
+                <source src="MP3/Sam Smith - Too Good At Goodbyes.mp3" type="audio/mpeg">
+                <source src="MP3/Sam Smith - Too Good At Goodbyes.ogg" type="audio/ogg">
+                Your browser does not support the audio tag.
+            </audio>
+
+            <p></p>
+            <p>
+                <h3>Feedback</h3>
+            </p>
+
+            <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="task">Names:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="task" 
+                                    placeholder="Please enter the name for feedback">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Email:</label>
+                            </td>
+                            <td>
+                                    <textarea id="remarks" cols="50"
+                                    placeholder="Please enter your email address?"></textarea>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                <label for="remarks">Remarks</label>
+                            </td>
+                            <td>
+                                <textarea id="remarks" cols="50" rows="5" 
+                                    placeholder="What are your thoughts?"></textarea>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button type="reset">Clear</button>
+                                <button type="submit">Submit</button>
+                            </td>
+                        </tr>
+    
+                    </tbody>
+    
+                </table>
     </body>
 
 </html>
