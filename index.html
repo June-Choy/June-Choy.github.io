@@ -12,7 +12,10 @@
     </style>
     <body>
         <h1>Gemma's Chocolate Chip Cookies Recipe</h1>
+<a ID="Top"></a>
+        <div>
         <img class="thumbnail" src="images1/Cookies.png" alt="Chocolate chip cookies">
+        </div>
 
         <p style="color: rgb(67, 70, 70)">
             My favourite type of chocolate chip cookies are crispy on the edges and chewy in the centre. Gemma Stafford's recipes are easy to follow and I love her bakes. I used dark chocolate for the cookies and reduced the amount of sugar.
@@ -23,11 +26,11 @@
 
             <thead>
                 <tr>
-                <th style="color: rgb(67, 70, 70)">Ingredients</th>
-                <th style="color: rgb(67, 70, 70)">Quantity</th>
+                <th style="color: rgb(67, 70, 70)" padding:2>Ingredients</th>
+                <th style="color: rgb(67, 70, 70)" padding:2>Quantity</th>
                 </tr>
             </thead>
-            <tbody style="color: rgb(67, 70, 70)">
+            <tbody style="color: rgb(67, 70, 70)" padding:2>
                 <tr>
                         <ul>
                     <td><li>Butter</li></td>
@@ -97,14 +100,14 @@
         </table>
 
         <p style="color: rgb(67, 70, 70)">
-        You can get Gemma's original recipe <a href="https://www.biggerbolderbaking.com/best-ever-chocolate-chip-cookies/">here</a>.
+        You can get Gemma's original recipe <a href="https://www.biggerbolderbaking.com/best-ever-chocolate-chip-cookies/" target="a_tab">here</a>.
         </p>
 
-        <audio controls>
-                <source src="MP3/Sam Smith - Too Good At Goodbyes.mp3" type="audio/mpeg">
-                <source src="MP3/Sam Smith - Too Good At Goodbyes.ogg" type="audio/ogg">
-                Your browser does not support the audio tag.
-            </audio>
+        <audio controls autoplay>
+                <source src="mp3/Ed Sheeran - Perfect | The Theorist Piano Cover.ogg" type="audio/ogg">
+                <source src="mp3/Ed Sheeran - Perfect | The Theorist Piano Cover.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
 
             <p></p>
             <p>
@@ -115,21 +118,21 @@
                     <tbody>
                         <tr>
                             <td>
-                                <label for="task">Names:</label>
+                                <label for="Name">Name:</label>
                             </td>
                             <td>
-                                <input type="text" id="task" 
-                                    placeholder="Please enter the name for feedback">
+                                <input type="text" id="Name">
+                                   
                             </td>
                         </tr>
                         <tr>
+                                <td>
+                                        <label for="email">Email:</label>
+                                    </td>
                             <td>
-                                <label for="email">Email:</label>
+                                <input type="text" id="email">
                             </td>
-                            <td>
-                                    <textarea id="remarks" cols="50"
-                                    placeholder="Please enter your email address?"></textarea>
-                            </td>
+                            
                         </tr>
     
                         <tr>
@@ -138,7 +141,7 @@
                             </td>
                             <td>
                                 <textarea id="remarks" cols="50" rows="5" 
-                                    placeholder="What are your thoughts?"></textarea>
+                                    placeholder="We would love to hear from you!"; padding-left= 31px></textarea>
                             </td>
                         </tr>
     
@@ -153,6 +156,8 @@
                     </tbody>
     
                 </table>
+
+              <a href="#Top">Back to top</a>  
     </body>
 
 </html>

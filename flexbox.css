@@ -1,7 +1,31 @@
+.menuitem{
+    list-style: none;
+    font-size: 2em;
+    transition-property: all;
+    transition-duration: 2ms;
+    transition-timing-function: linear
+}
+
+.menuitem:hover{
+background-color: blueviolet;
+border-bottom: 1px solid black;
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.vertical{
+    display: flex;
+    flex-direction: column;
+}
+
 .box-150{
     width: 150px;
-    height: 150px:
-
+    height: 150px;
 }
 
 .color-blue{

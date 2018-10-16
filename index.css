@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=KoHo:400, 600|Lobster');
+
+body{
+    background: url(images1/peach.jpg);
+
+}
+
+h2:before {
+    content: url(images1/baking\ tools.png)
+
+}
+
+#Name, #email, #remarks {
+    border-radius: 30px;
+    color: rgb(27, 27, 26);
+    font-family: monospace;
+    font-size: 1.2em
+}
+
+::-webkit-input-placeholder{
+    padding-left: 25px;
+    font-size: 0.8em
+}
+
+th, td {
+    padding-left: 10px;
+    padding-right: 25px;
+    text-align: left;
+}
+
+th{
+    font-family:'KoHo', 600;
+    font-size: 1.3em;
+    font-style: bold;
+}
+
+p, tbody, ol{
+    font-family:'KoHo', sans-serif;
+    font-size: 1.3em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 .important{
     font-color:orange;
     font-weight:bold;
@@ -5,8 +57,14 @@
     font-size: 3em;
 }
 .thumbnail{
-    
-    border-radius: 120px
+    width:100%
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+}
+.thumbnail:hover{
+    boarder-radius: 50%;
+    image: url(images1/cookies\ stack.png)
 }
 
 .news-title{
@@ -20,14 +78,22 @@ border-top-right-radius: 15px;
 body{ 
     background-color: mintcream;
 }
+h3{
+    color:rgb(67, 70, 70);
+    font-family: 'Lobster', cursive;
+    font-size: 1.8em;
+}
+h2{
+    color:rgb(67, 70, 70);
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+}
 h1{
     color:rgb(67, 70, 70);
-    border: 3px dotted grey;
-    text-decoration: underline;
-    font-family: monospace;
-}
-
-p{
-    font-size: 1.2em;
-    border: 1px solid darkblue;
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
