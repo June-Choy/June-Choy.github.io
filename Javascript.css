@@ -1,0 +1,20 @@
+//declare a variable
+
+var email = null;
+//identifier/variable - types
+var my name = "June"; //string
+var last name = 'Choy' //string/string of characters
+var my age = 21; //number - integer
+var interestRate = 1.2; //number - floating point, float
+var hungry = false; //boolean - false/true
+
+console.log('My name is' + myname)
+
+
+
+
+var name = "June"; 
+var lastname = 'Choy'
+var Fullname = name + ' ' + lastname
+
+console.log(Fullname)
