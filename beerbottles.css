@@ -1,0 +1,10 @@
+.alpaca {
+    height: 45px;
+
+}
+
+.outer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
