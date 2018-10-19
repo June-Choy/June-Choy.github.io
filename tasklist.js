@@ -1,9 +1,19 @@
 var mklist = function(tasks, deadlines, priority) {
 var liElem = document.createElement('li');
-liElem.textcontent=`${tasks} - ${deadlines}`;
+liElem.textContent=`${tasks} - ${deadlines}`;
 liElem.classList.add('list-group-item')
 
-return(liElem)
+
+    if(priority =='high')
+    liElem.classList.add('priority-high');
+
+    else if (priority == 'medium') 
+    liElem.classList.add('priority-medium');
+
+    else 
+    liElem.classList.add('priority-low');
+
+    return(liElem)
 }
 
 
@@ -21,6 +31,11 @@ addbtn.addEventListener(
 
        var todolistElem = document.querySelector('#todo-list');
        todolistElem.appendChild(todoElem);
+       taskElem.value = null;
+       deadlineElem.value = null;
+       priorityElem.value = medium;
+
+
     }
     )
 
