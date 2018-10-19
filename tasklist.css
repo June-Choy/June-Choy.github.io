@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Mali');
+
+/*
+.priority-high{
+    border-left: 5px red;
+}
+
+.priority-medium{
+    boarder-left: 5px orange;
+}
+
+.priority-low{
+    boarder-left: 5px blue;
+}
+*/
+.list-group{
+    margin-top:20px;
+}
+
+.list-group-item:hover{
+    background-color: aqua
+}
+
+.container { 
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+h1{
+    font-family: 'Mali', cursive;
+}
+
+.purplecolour {
+    color: blueviolet
+}
+
+.right-justify{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
